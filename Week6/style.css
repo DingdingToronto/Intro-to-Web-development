@@ -1,0 +1,51 @@
+/* Add some basic styles for the body and header */
+body {
+  font-family: Arial, sans-serif;
+  text-align: center;
+  background-color: #f0f0f0;
+}
+
+h1 {
+  color: #333;
+}
+
+/* Style the labels for input fields */
+label {
+  font-weight: bold;
+  margin-right: 10px;
+}
+
+/* Style the input fields */
+input {
+  padding: 5px;
+  margin: 5px;
+  border: 1px solid #ccc;
+  border-radius: 3px;
+  font-size: 14px;
+}
+
+/* Style the input fields with type="number" */
+input[type="number"] {
+  width: 100px;
+  text-align: right;
+}
+
+/* Style the input fields with id="stud" */
+#stud {
+  background-color: #ffffcc;
+}
+
+/* Style the input fields with id="meters" */
+#meters {
+  background-color: #ccffcc;
+}
+
+/* Style the input fields with id="centimeters" */
+#centimeters {
+  background-color: #ccffff;
+}
+
+/* Style the input fields with id="millimeters" */
+#millimeters {
+  background-color: #ffccff;
+}
